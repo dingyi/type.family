@@ -1031,4 +1031,325 @@ export const foundries: Foundry[] = [
     website: "processtypefoundry.com",
     category: "indie"
   },
+
+  // === 来自 type.lol 补充的厂商 ===
+  {
+    id: 126,
+    name: "Sharp Type",
+    description: "纽约独立字体厂商，以 Sharp Grotesk 闻名",
+    country: "美国",
+    website: "sharptype.co",
+    category: "indie"
+  },
+  {
+    id: 127,
+    name: "Lineto",
+    description: "瑞士传奇字体厂商，LL Circular 等经典字体出品方",
+    country: "瑞士",
+    founded: "1993",
+    notableFonts: ["LL Circular", "LL Brown", "Akkurat"],
+    website: "lineto.com",
+    category: "indie"
+  },
+  {
+    id: 128,
+    name: "Underware",
+    description: "荷兰独立字体工作室，三位设计师合作创立",
+    country: "荷兰",
+    founded: "1999",
+    notableFonts: ["Liza", "Auto", "Bello"],
+    website: "underware.nl",
+    category: "indie"
+  },
+  {
+    id: 129,
+    name: "A2-Type",
+    description: "伦敦独立字体厂商，由 Henrik Kubel 和 Scott Williams 创立",
+    country: "英国",
+    founded: "2010",
+    website: "a2-type.co.uk",
+    category: "indie"
+  },
+  {
+    id: 130,
+    name: "Atipo Foundry",
+    description: "西班牙独立字体厂商，提供免费与商用字体",
+    country: "西班牙",
+    website: "atipofoundry.com",
+    category: "indie"
+  },
+  {
+    id: 131,
+    name: "Arrow Type",
+    description: "Stephen Nixon 创立的独立字体工作室",
+    country: "美国",
+    website: "arrowtype.com",
+    category: "indie"
+  },
+  {
+    id: 132,
+    name: "Huerta Tipográfica",
+    description: "阿根廷独立字体厂商，拉丁美洲字体设计先锋",
+    country: "阿根廷",
+    founded: "2009",
+    notableFonts: ["Alegreya", "Temeraire"],
+    website: "hfrertipografica.com",
+    category: "indie"
+  },
+  {
+    id: 133,
+    name: "29LT",
+    description: "专注阿拉伯语与拉丁语双文字体设计",
+    country: "黎巴嫩",
+    founded: "2009",
+    website: "29lt.com",
+    category: "indie"
+  },
+  {
+    id: 134,
+    name: "205TF",
+    description: "法国独立字体厂商",
+    country: "法国",
+    website: "205.tf",
+    category: "indie"
+  },
+  {
+    id: 135,
+    name: "Collletttivo",
+    description: "免费开源字体集体项目",
+    website: "collletttivo.it",
+    category: "indie"
+  },
+  {
+    id: 136,
+    name: "Atlas Font Foundry",
+    description: "纽约独立字体厂商，由 Kai Bernau 等创立",
+    country: "美国",
+    website: "atlasfonts.com",
+    category: "indie"
+  },
+  {
+    id: 137,
+    name: "ANRT",
+    description: "法国南锡国家排版研究工作室",
+    country: "法国",
+    website: "anrt-nancy.fr",
+    category: "studio"
+  },
+  {
+    id: 138,
+    name: "Authentic",
+    description: "柏林独立字体与品牌设计工作室",
+    country: "德国",
+    website: "authentic.website",
+    category: "studio"
+  },
+  {
+    id: 139,
+    name: "Badson",
+    description: "波特兰独立字体工作室，由 Lucas Sharp 创立",
+    country: "美国",
+    website: "badsonstudio.com",
+    category: "studio"
+  },
+  {
+    id: 140,
+    name: "Blancoletters",
+    description: "荷兰字体设计工作室",
+    country: "荷兰",
+    website: "blancoletters.com",
+    category: "studio"
+  },
+  {
+    id: 141,
+    name: "Central Type",
+    description: "独立字体厂商",
+    website: "centraltype.com",
+    category: "studio"
+  },
+  {
+    id: 142,
+    name: "Character Type",
+    description: "独立字体设计工作室",
+    website: "charactertype.com",
+    category: "studio"
+  },
+  {
+    id: 143,
+    name: "Archetype Foundry",
+    description: "独立字体厂商，提供当代零售字体",
+    website: "archetypefoundry.com",
+    category: "studio"
+  },
+  {
+    id: 144,
+    name: "Abyme",
+    description: "法国独立字体厂商",
+    country: "法国",
+    website: "abyme-type.com",
+    category: "studio"
+  },
+  {
+    id: 145,
+    name: "Avondale Type Co",
+    description: "美国独立字体厂商",
+    country: "美国",
+    website: "avondaletypeco.com",
+    category: "studio"
+  },
+  {
+    id: 146,
+    name: "ATYPICAL",
+    description: "实验性独立字体厂商",
+    website: "atypicaltype.com",
+    category: "studio"
+  },
+  {
+    id: 147,
+    name: "Alias",
+    description: "独立字体设计工作室",
+    website: "alias-type.com",
+    category: "studio"
+  },
+  {
+    id: 148,
+    name: "Altiplano",
+    description: "瑞士独立字体厂商",
+    country: "瑞士",
+    website: "altiplano.xyz",
+    category: "studio"
+  },
+  {
+    id: 149,
+    name: "ARS Type",
+    description: "独立字体厂商",
+    website: "arstype.com",
+    category: "studio"
+  },
+  {
+    id: 150,
+    name: "Approximate Type",
+    description: "独立字体设计厂商",
+    website: "approximatetype.com",
+    category: "studio"
+  },
+  {
+    id: 151,
+    name: "Type-Ø-Tones",
+    description: "西班牙巴塞罗那独立字体厂商",
+    country: "西班牙",
+    founded: "1990",
+    website: "type-o-tones.com",
+    category: "indie"
+  },
+  {
+    id: 152,
+    name: "Swiss Typefaces",
+    description: "瑞士独立字体厂商，以 SuisseIntl 闻名",
+    country: "瑞士",
+    notableFonts: ["Suisse Int'l", "Suisse Works"],
+    website: "swisstypefaces.com",
+    category: "indie"
+  },
+  {
+    id: 153,
+    name: "Okay Type",
+    description: "Jackson Cavanaugh 创立的独立字体厂商",
+    country: "美国",
+    notableFonts: ["Alright Sans", "Harriet"],
+    website: "okaytype.com",
+    category: "indie"
+  },
+  {
+    id: 154,
+    name: "Adotbelow",
+    description: "专注越南语排版的字体厂商",
+    country: "越南",
+    website: "adotbelow.com",
+    category: "studio"
+  },
+  {
+    id: 155,
+    name: "Aesthetic Type",
+    description: "独立字体设计工作室",
+    website: "aesthetictype.com",
+    category: "studio"
+  },
+  {
+    id: 156,
+    name: "Antipixel",
+    description: "独立字体厂商",
+    website: "antipixel.com",
+    category: "studio"
+  },
+  {
+    id: 157,
+    name: "Abstract Office",
+    description: "独立字体与设计工作室",
+    website: "abstractoffice.com",
+    category: "studio"
+  },
+  {
+    id: 158,
+    name: "Apex Type Foundry",
+    description: "独立字体厂商",
+    website: "apextypefoundry.com",
+    category: "studio"
+  },
+  {
+    id: 159,
+    name: "Associated Typographics",
+    description: "独立字体厂商，提供零售与定制字体",
+    website: "associatedtypographics.com",
+    category: "studio"
+  },
+  {
+    id: 160,
+    name: "Babelfont",
+    description: "多语言字体厂商，支持多种文字系统",
+    website: "babelfont.com",
+    category: "studio"
+  },
+  {
+    id: 161,
+    name: "Comma Type",
+    description: "独立字体设计工作室",
+    website: "comma-type.com",
+    category: "studio"
+  },
+  {
+    id: 162,
+    name: "CJ Type",
+    description: "独立字体设计工作室",
+    website: "cjtype.com",
+    category: "studio"
+  },
+  {
+    id: 163,
+    name: "ArtyType",
+    description: "独立字体设计工作室",
+    website: "artytype.com",
+    category: "studio"
+  },
+  {
+    id: 164,
+    name: "Authentype",
+    description: "独立字体厂商",
+    website: "authentype.com",
+    category: "studio"
+  },
+  {
+    id: 165,
+    name: "AllCaps",
+    description: "独立字体设计工作室",
+    website: "allcaps.co",
+    category: "studio"
+  },
+  {
+    id: 166,
+    name: "AlfaType",
+    description: "独立字体设计工作室",
+    website: "alfatype.com",
+    category: "studio"
+  },
 ];
