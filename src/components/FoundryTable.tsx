@@ -11,14 +11,10 @@ const categoryLabels: Record<Foundry['category'], string> = {
 };
 
 export function FoundryTable() {
-  const [filter, setFilter] = useState<Foundry['category'] | 'all'>('all');
   const [search, setSearch] = useState('');
 
   const filteredFoundries = useMemo(() => {
-    let result = foundries;
-    if (filter !== 'all') {
-      result = result.filter(f => f.category === filter);
-    }
+    let result = [...foundries].sort((a, b) => a.name.localeCompare(b.name));
     if (search.trim()) {
       const q = search.toLowerCase();
       result = result.filter(f =>
@@ -30,12 +26,12 @@ export function FoundryTable() {
       );
     }
     return result;
-  }, [filter, search]);
+  }, [search]);
 
   return (
     <div className="w-full">
       {/* Controls */}
-      <div className="flex flex-col sm:flex-row gap-4 mb-6 items-start sm:items-center justify-between">
+      <div className="mb-6">
         <input
           type="text"
           value={search}
@@ -43,25 +39,6 @@ export function FoundryTable() {
           placeholder="搜索厂商..."
           className="w-full sm:w-64 px-3 py-1.5 bg-background border border-border text-xs text-foreground placeholder:text-muted-foreground focus:outline-none"
         />
-
-        <div className="flex flex-wrap gap-0">
-          {(['all', 'classic', 'modern', 'indie', 'tech', 'studio'] as const).map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setFilter(cat)}
-              className={`px-2.5 py-1 text-xs border border-border -ml-px first:ml-0 transition-colors ${
-                filter === cat
-                  ? 'bg-foreground text-background'
-                  : 'text-muted-foreground hover:text-foreground'
-              }`}
-            >
-              {cat === 'all' ? '全部' : categoryLabels[cat]}
-              <span className="ml-1 opacity-50">
-                {cat === 'all' ? foundries.length : foundries.filter(f => f.category === cat).length}
-              </span>
-            </button>
-          ))}
-        </div>
       </div>
 
       {/* Table */}
