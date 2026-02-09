@@ -5,7 +5,7 @@ export function HeroSection() {
         全球字体厂商目录
       </h1>
       <p className="text-xs text-muted-foreground mt-1">
-        收录全球 415+ 家字体设计公司与工作室
+        收录全球 416+ 家字体设计公司与工作室
       </p>
       <hr className="mt-6 border-border" />
     </header>
