@@ -1,12 +1,13 @@
 export function HeroSection() {
   return (
-    <header className="py-16 md:py-24 text-center">
-      <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground mb-4">
+    <header className="pt-10 pb-6">
+      <h1 className="text-sm font-semibold tracking-wide text-foreground uppercase">
         全球字体厂商目录
       </h1>
-      <p className="text-muted-foreground max-w-xl mx-auto text-base md:text-lg">
+      <p className="text-xs text-muted-foreground mt-1">
         收录全球 125+ 家字体设计公司与工作室
       </p>
+      <hr className="mt-6 border-border" />
     </header>
   );
 }

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -34,7 +34,7 @@
     --input: 0 0% 90%;
     --ring: 0 0% 9%;
 
-    --radius: 0.5rem;
+    --radius: 0px;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 0 0% 9%;
@@ -76,11 +76,14 @@
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Geist Mono', monospace;
+    font-size: 13px;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Geist Mono', monospace;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
   }
 }
