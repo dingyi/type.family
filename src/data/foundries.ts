@@ -1786,4 +1786,9 @@ export const foundries: Foundry[] = [
   { id: 410, name: "Workhorse Type Foundry", description: "独立字体厂商", website: "workhorsetypefoundry.com", category: "studio" },
   { id: 411, name: "WrittenShape", description: "独立字体厂商", website: "writtenshape.com", category: "studio" },
   { id: 412, name: "XO Type Co", description: "独立字体厂商", website: "xotype.co", category: "studio" },
+
+  // === 补充遗漏的 S、T 区间厂商 ===
+  { id: 413, name: "Typocalypse", description: "德国独立字体厂商", country: "德国", founded: "2008", website: "typocalypse.com", category: "studio" },
+  { id: 414, name: "Typocopter", description: "荷兰/德国独立字体厂商", country: "荷兰", founded: "2022", website: "typocopter.com", category: "studio" },
+  { id: 415, name: "typographies.fr", description: "法国独立字体厂商", country: "法国", founded: "2008", website: "typographies.fr", category: "studio" },
 ];
