@@ -74,7 +74,7 @@ export function FoundryTable() {
                 <th className="px-3 py-2 font-medium text-muted-foreground">名称</th>
                 <th className="px-3 py-2 font-medium text-muted-foreground hidden md:table-cell">简介</th>
                 <th className="px-3 py-2 font-medium text-muted-foreground hidden lg:table-cell">国家</th>
-                <th className="px-3 py-2 font-medium text-muted-foreground hidden lg:table-cell">代表字体</th>
+                
                 <th className="px-3 py-2 font-medium text-muted-foreground">类型</th>
                 <th className="px-3 py-2 font-medium text-muted-foreground text-right">官网</th>
               </tr>
@@ -87,9 +87,6 @@ export function FoundryTable() {
                   </td>
                   <td className="px-3 py-2">
                     <span className="font-medium text-foreground">{foundry.name}</span>
-                    {foundry.founded && (
-                      <span className="ml-2 text-muted-foreground">{foundry.founded}</span>
-                    )}
                   </td>
                   <td className="px-3 py-2 hidden md:table-cell max-w-[220px]">
                     <span className="text-muted-foreground truncate block">
@@ -98,15 +95,6 @@ export function FoundryTable() {
                   </td>
                   <td className="px-3 py-2 hidden lg:table-cell text-muted-foreground">
                     {foundry.country || '—'}
-                  </td>
-                  <td className="px-3 py-2 hidden lg:table-cell max-w-[180px]">
-                    {foundry.notableFonts && foundry.notableFonts.length > 0 ? (
-                      <span className="text-muted-foreground">
-                        {foundry.notableFonts.slice(0, 3).join(', ')}
-                      </span>
-                    ) : (
-                      <span className="text-muted-foreground">—</span>
-                    )}
                   </td>
                   <td className="px-3 py-2 text-muted-foreground">
                     {categoryLabels[foundry.category]}
