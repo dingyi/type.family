@@ -159,7 +159,7 @@ export const foundries: Foundry[] = [
   {
     id: 15,
     name: "Typotheque",
-    description: "unique, high quality fonts for print and screens",
+    description: "荷兰独立字体厂商，专注高质量印刷与屏幕字体",
     country: "荷兰",
     founded: "1999",
     notableFonts: ["Fedra", "History", "Greta"],
@@ -177,7 +177,7 @@ export const foundries: Foundry[] = [
   {
     id: 17,
     name: "F37 Foundry",
-    description: "Brand font licensing & custom fonts",
+    description: "英国字体厂商，提供品牌授权与定制字体",
     country: "英国",
     website: "f37foundry.com",
     category: "modern"
@@ -185,7 +185,7 @@ export const foundries: Foundry[] = [
   {
     id: 18,
     name: "Identity Letters",
-    description: "Retail & Custom Typefaces. Easy Licensing.",
+    description: "提供零售与定制字体，授权简便",
     website: "identity-letters.com",
     category: "modern"
   },
@@ -194,7 +194,7 @@ export const foundries: Foundry[] = [
   {
     id: 19,
     name: "Dinamo Typefaces",
-    description: "a Swiss design practice established by Johannes Breyer and Fabian Harb",
+    description: "瑞士独立设计工作室，由 Breyer 和 Harb 创立",
     country: "瑞士",
     founded: "2010",
     notableFonts: ["ABC Diatype", "ABC Favorit", "Prophet"],
@@ -204,7 +204,7 @@ export const foundries: Foundry[] = [
   {
     id: 20,
     name: "Grilli Type",
-    description: "Independent Swiss Type Foundry",
+    description: "瑞士独立字体厂商",
     country: "瑞士",
     founded: "2009",
     notableFonts: ["GT Walsheim", "GT America", "GT Sectra"],
@@ -244,14 +244,14 @@ export const foundries: Foundry[] = [
   {
     id: 24,
     name: "Pangram Pangram",
-    description: "Free to Try Quality Fonts and Typefaces",
+    description: "提供免费试用的高品质字体",
     website: "pangrampangram.com",
     category: "indie"
   },
   {
     id: 25,
     name: "Extraset",
-    description: "Independent Swiss Type Foundry",
+    description: "瑞士独立字体厂商",
     country: "瑞士",
     website: "extraset.ch",
     category: "indie"
@@ -266,7 +266,7 @@ export const foundries: Foundry[] = [
   {
     id: 27,
     name: "Displaay",
-    description: "independent type-foundry and design studio founded by Martin Vácha based in Prague",
+    description: "布拉格独立字体厂商与设计工作室",
     country: "捷克",
     website: "displaay.net",
     category: "indie"
@@ -284,7 +284,7 @@ export const foundries: Foundry[] = [
   {
     id: 29,
     name: "Nouvelle Noire",
-    description: "Swiss Type Foundry",
+    description: "瑞士独立字体厂商",
     country: "瑞士",
     website: "nouvellenoire.ch",
     category: "indie"
@@ -292,7 +292,7 @@ export const foundries: Foundry[] = [
   {
     id: 30,
     name: "Superior Type",
-    description: "czech type design studio offering retail and custom fonts",
+    description: "捷克字体设计工作室，提供零售与定制字体",
     country: "捷克",
     website: "superiortype.com",
     rating: 5,
@@ -301,7 +301,7 @@ export const foundries: Foundry[] = [
   {
     id: 31,
     name: "Cast Type Foundry",
-    description: "In case of type",
+    description: "独立字体厂商",
     website: "c-a-s-t.com",
     category: "indie"
   },
@@ -318,14 +318,14 @@ export const foundries: Foundry[] = [
   {
     id: 33,
     name: "Connary Fagen",
-    description: "a type design studio and foundry",
+    description: "独立字体设计工作室与厂商",
     website: "connary.com",
     category: "indie"
   },
   {
     id: 34,
     name: "Formist Foundry",
-    description: "Typefaces of rigour and invention",
+    description: "注重严谨与创新的字体厂商",
     website: "formistfoundry.co",
     category: "indie"
   },
@@ -351,7 +351,7 @@ export const foundries: Foundry[] = [
   {
     id: 37,
     name: "CoType Foundry",
-    description: "CoType is the London based type foundry of Mark Bloom and Co.",
+    description: "伦敦独立字体厂商，由 Mark Bloom 创立",
     country: "英国",
     website: "cotypefoundry.com",
     category: "studio"
@@ -359,7 +359,7 @@ export const foundries: Foundry[] = [
   {
     id: 38,
     name: "General Type Studio",
-    description: "a New York based type foundry founded by Stéphane Elbaz",
+    description: "纽约独立字体厂商，由 Stéphane Elbaz 创立",
     country: "美国",
     website: "generaltypestudio.com",
     category: "studio"
@@ -367,7 +367,7 @@ export const foundries: Foundry[] = [
   {
     id: 39,
     name: "Family Type",
-    description: "Family Type is a digital type foundry based in London and Sydney",
+    description: "伦敦与悉尼双城数字字体厂商",
     country: "英国/澳大利亚",
     website: "familytype.co",
     category: "studio"
@@ -375,21 +375,21 @@ export const foundries: Foundry[] = [
   {
     id: 40,
     name: "Hot Type",
-    description: "type foundry and design studio established by Marko Hrastovec",
+    description: "由 Marko Hrastovec 创立的字体与设计工作室",
     website: "hottype.co",
     category: "studio"
   },
   {
     id: 41,
     name: "Nikolas Type",
-    description: "independent type foundry of Nikolas Wrobel, creating retail and bespoke typefaces",
+    description: "Nikolas Wrobel 的独立字体厂商，提供零售与定制字体",
     website: "nikolastype.com",
     category: "studio"
   },
   {
     id: 42,
     name: "Nova Type Foundry",
-    description: "independent font foundry by Joana Correia based in Porto",
+    description: "葡萄牙波尔图独立字体厂商，由 Joana Correia 创立",
     country: "葡萄牙",
     website: "novatypefoundry.com",
     category: "studio"
@@ -397,7 +397,7 @@ export const foundries: Foundry[] = [
   {
     id: 43,
     name: "Typografische",
-    description: "independent typeface design studio led by Fatih Hardal, based in Istanbul",
+    description: "伊斯坦布尔独立字体设计工作室，由 Fatih Hardal 主理",
     country: "土耳其",
     website: "typografische.com",
     category: "studio"
@@ -405,35 +405,35 @@ export const foundries: Foundry[] = [
   {
     id: 44,
     name: "Vectro",
-    description: "type design studio offering retail fonts, custom typeface design, and font production",
+    description: "提供零售字体、定制设计与字体制作的工作室",
     website: "vectrotype.com",
     category: "studio"
   },
   {
     id: 45,
     name: "Simon Type",
-    description: "ongoing typography project by Simon Abranowicz",
+    description: "Simon Abranowicz 的持续字体项目",
     website: "simontype.com",
     category: "studio"
   },
   {
     id: 46,
     name: "Degarism",
-    description: "a digital type design and graphic design studio",
+    description: "数字字体与平面设计工作室",
     website: "degarism.com",
     category: "studio"
   },
   {
     id: 47,
     name: "HARDAL",
-    description: "Typeface studio",
+    description: "字体设计工作室",
     website: "hardalstudio.com",
     category: "studio"
   },
   {
     id: 48,
     name: "Neunau",
-    description: "Berlin based design studio working with international clients in design and typography",
+    description: "柏林设计工作室，服务国际客户的设计与排版",
     country: "德国",
     website: "neubauberlin.com",
     category: "studio"
@@ -441,14 +441,14 @@ export const foundries: Foundry[] = [
   {
     id: 49,
     name: "Studio Rene Bieder",
-    description: "Retail and Custom Type Design",
+    description: "提供零售与定制字体设计",
     website: "renebieder.com",
     category: "studio"
   },
   {
     id: 50,
     name: "Boulevard LAB",
-    description: "an experimental design practice and type foundry based in Victoria, Canada",
+    description: "加拿大维多利亚实验性设计与字体厂商",
     country: "加拿大",
     website: "boulevardlab.com",
     category: "studio"
@@ -456,7 +456,7 @@ export const foundries: Foundry[] = [
   {
     id: 51,
     name: "KOMETA",
-    description: "type foundry from Czech Republic producing high quality typefaces with contemporary finish",
+    description: "捷克字体厂商，制作高品质当代字体",
     country: "捷克",
     website: "kometa.xyz",
     category: "studio"
@@ -464,21 +464,21 @@ export const foundries: Foundry[] = [
   {
     id: 52,
     name: "iframe",
-    description: "production of custom typefaces as integral part of typography exploration",
+    description: "以排版探索为核心的定制字体工作室",
     website: "iframefonts.com",
     category: "studio"
   },
   {
     id: 53,
     name: "Typeheist",
-    description: "independent font foundry focusing on hand-lettered, realistic fonts",
+    description: "专注手写与拟真风格字体的独立厂商",
     website: "typeheist.co",
     category: "studio"
   },
   {
     id: 54,
     name: "UNKNOWN",
-    description: "Contemporary display typeface designed by Lukas Haider & Alexander Raffl",
+    description: "当代展示字体，由 Haider 和 Raffl 设计",
     website: "unknown-type.com",
     category: "studio"
   },
@@ -680,7 +680,7 @@ export const foundries: Foundry[] = [
   {
     id: 81,
     name: "Typeverything",
-    description: "Great fonts by cool designers",
+    description: "汇集优秀设计师的精品字体",
     website: "typeverything.com",
     category: "studio"
   },
