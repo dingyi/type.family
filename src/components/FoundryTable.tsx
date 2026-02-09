@@ -52,7 +52,6 @@ export function FoundryTable() {
                 <th className="px-3 py-2 font-medium text-muted-foreground hidden md:table-cell">简介</th>
                 <th className="px-3 py-2 font-medium text-muted-foreground hidden lg:table-cell">国家</th>
                 
-                <th className="px-3 py-2 font-medium text-muted-foreground">类型</th>
                 <th className="px-3 py-2 font-medium text-muted-foreground text-right">官网</th>
               </tr>
             </thead>
@@ -72,9 +71,6 @@ export function FoundryTable() {
                   </td>
                   <td className="px-3 py-2 hidden lg:table-cell text-muted-foreground">
                     {foundry.country || '—'}
-                  </td>
-                  <td className="px-3 py-2 text-muted-foreground">
-                    {categoryLabels[foundry.category]}
                   </td>
                   <td className="px-3 py-2 text-right">
                     <a
