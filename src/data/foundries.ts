@@ -485,157 +485,195 @@ export const foundries: Foundry[] = [
   {
     id: 55,
     name: "Contrast Foundry",
+    description: "俄罗斯独立字体厂商，专注西里尔与拉丁字体",
+    country: "俄罗斯",
     website: "contrastfoundry.com",
     category: "studio"
   },
   {
     id: 56,
     name: "Almarena Foundry",
-    description: "Try & Buy Quality Fonts & Typefaces",
+    description: "法国独立字体厂商，提供高质量零售字体",
+    country: "法国",
     website: "foundry.almarena.fr",
     category: "studio"
   },
   {
     id: 57,
     name: "A is for",
+    description: "独立字体工作室，提供精品零售字体",
     website: "aisforfonts.com",
     category: "studio"
   },
   {
     id: 58,
     name: "ALT.tf",
+    description: "独立字体厂商，提供无衬线、衬线与展示字体",
     website: "alt-tf.com",
     category: "studio"
   },
   {
     id: 59,
     name: "Arillatype Studio",
+    description: "专注几何与无衬线字体的独立工作室",
     website: "arillatype.studio",
     category: "studio"
   },
   {
     id: 60,
     name: "Basement",
+    description: "精心打造的当代字体，注重细节与品质",
     website: "foundry.basement.studio",
     category: "studio"
   },
   {
     id: 61,
     name: "Emtype Foundry",
+    description: "巴塞罗那字体与定制字体工作室",
+    country: "西班牙",
     website: "emtype.net",
     category: "studio"
   },
   {
     id: 62,
     name: "Fatype",
+    description: "独立字体厂商，提供实验性与功能性字体",
     website: "fatype.com",
     category: "studio"
   },
   {
     id: 63,
     name: "Floodfonts",
+    description: "德国科隆独立字体设计工作室",
+    country: "德国",
     website: "floodfonts.com",
     category: "studio"
   },
   {
     id: 64,
     name: "Good Type Foundry",
+    description: "独立字体厂商，提供多种风格零售字体",
     website: "goodtypefoundry.com",
     category: "studio"
   },
   {
     id: 65,
     name: "HAL Typefaces",
+    description: "Studio HanLi 旗下字体品牌",
     website: "type.hanli.eu",
     category: "studio"
   },
   {
     id: 66,
     name: "Interval Type",
+    description: "独立字体厂商，提供零售与试用字体",
     website: "intervaltype.com",
     category: "studio"
   },
   {
     id: 67,
     name: "Kurppa Hosk Type",
+    description: "瑞典设计公司 Kurppa Hosk 旗下字体品牌",
+    country: "瑞典",
     website: "khtype.com",
     category: "studio"
   },
   {
     id: 68,
     name: "Luzi Type",
+    description: "瑞士创新字体设计工作室",
+    country: "瑞士",
     website: "luzi-type.ch",
     category: "studio"
   },
   {
     id: 69,
     name: "NBL (Neubau Laden)",
+    description: "柏林 Neubau 旗下字体与数字产品商店",
+    country: "德国",
     website: "neubauladen.com",
     category: "studio"
   },
   {
     id: 70,
     name: "Nuform Type",
+    description: "由字母艺术家 Erik Marinovich 创立的字体工作室",
+    country: "美国",
     website: "nuformtype.com",
     category: "studio"
   },
   {
     id: 71,
     name: "Off Type",
+    description: "提供精美非主流字体的独立厂商",
     website: "off-type.com",
     category: "studio"
   },
   {
     id: 72,
     name: "Open Foundry",
+    description: "精选高质量开源字体的免费平台",
     website: "open-foundry.com",
     category: "studio"
   },
   {
     id: 73,
     name: "Order",
+    description: "纽约设计与字体工作室，注重实用长期字体",
+    country: "美国",
     website: "order.design",
     category: "studio"
   },
   {
     id: 74,
     name: "Peregrin Studio",
+    description: "探索排版与设计的独立字体工作室",
     website: "peregrinstudio.com",
     category: "studio"
   },
   {
     id: 75,
     name: "Pizza Typefaces",
+    description: "法国独立字体厂商，提供多语言字体",
+    country: "法国",
     website: "typefaces.pizza",
     category: "studio"
   },
   {
     id: 76,
     name: "Power Type",
+    description: "印尼独立数字字体厂商",
+    country: "印尼",
     website: "power-type.com",
     category: "studio"
   },
   {
     id: 77,
     name: "Faire Type",
+    description: "布鲁克林字体厂商，提供零售与定制字体",
+    country: "美国",
     website: "fairetype.com",
     category: "studio"
   },
   {
     id: 78,
     name: "Frost",
+    description: "英国字体厂商，融合历史参考与当代设计",
+    country: "英国",
     website: "frostype.xyz",
     category: "studio"
   },
   {
     id: 79,
     name: "Joyride",
+    description: "实验性字体与刻字设计工作室",
     website: "joyride.studio",
     category: "studio"
   },
   {
     id: 80,
     name: "Soneritype",
+    description: "数字字体厂商，为品牌提供商用字体",
     website: "soneritype.com",
     category: "studio"
   },
@@ -649,6 +687,7 @@ export const foundries: Foundry[] = [
   {
     id: 82,
     name: "UNCUT",
+    description: "免费当代字体目录，可商用",
     website: "uncut.wtf",
     category: "studio"
   },
@@ -662,6 +701,8 @@ export const foundries: Foundry[] = [
   {
     id: 84,
     name: "Wise Type",
+    description: "荷兰独立字体厂商，提供可变字体",
+    country: "荷兰",
     website: "wisetype.nl",
     category: "studio"
   },
@@ -675,234 +716,308 @@ export const foundries: Foundry[] = [
   {
     id: 86,
     name: "Suva Type Foundry",
+    description: "爱沙尼亚实验性字体厂商",
+    country: "爱沙尼亚",
     website: "suvatypefoundry.ee",
     category: "studio"
   },
   {
     id: 87,
     name: "Mass-Driver",
+    description: "海牙独立字体设计与制作工作室",
+    country: "荷兰",
+    founded: "2020",
     website: "mass-driver.com",
     category: "studio"
   },
   {
     id: 88,
     name: "Studio Feixen",
+    description: "由平面设计师为设计师打造的字体",
+    country: "瑞士",
     website: "fonts.studiofeixen.ch",
     category: "studio"
   },
   {
     id: 89,
     name: "Flavia Zimmerle",
+    description: "巴西裔柏林字体设计师，关注文化遗产与平权",
+    country: "德国/巴西",
     website: "flaviazim.com",
     category: "studio"
   },
   {
     id: 90,
     name: "VJ Type",
+    description: "独立字体厂商，提供展示与文本字体",
     website: "vj-type.com",
     category: "studio"
   },
   {
     id: 91,
     name: "TypeType",
+    description: "专业字体厂商，提供丰富的商用字体库",
     website: "typetype.org",
     category: "studio"
   },
   {
     id: 92,
     name: "July Type",
+    description: "独立字体设计工作室",
     website: "julytype.com",
     category: "studio"
   },
   {
     id: 93,
     name: "Eliott Grunewald",
+    description: "专注装饰性与标题字体设计",
     website: "eliottgrunewald.xyz",
     category: "studio"
   },
   {
     id: 94,
     name: "Groteskly",
+    description: "独立字体厂商，专注现代功能性字体",
     website: "groteskly.xyz",
     category: "studio"
   },
   {
     id: 95,
     name: "The Designers Foundry",
+    description: "汇集多位设计师作品的字体平台",
     website: "thedesignersfoundry.com",
     category: "studio"
   },
   {
     id: 96,
     name: "Three Dots Type",
+    description: "波兰弗罗茨瓦夫独立字体厂商",
+    country: "波兰",
+    founded: "2017",
     website: "threedotstype.com",
     category: "studio"
   },
   {
     id: 97,
     name: "Otherwhere Collective",
+    description: "创意品牌与字体设计工作室",
     website: "otherwherecollective.com",
     category: "studio"
   },
   {
     id: 98,
     name: "Camelot Typefaces",
+    description: "莱比锡独立字体集体，自主出版字体",
+    country: "德国",
     website: "camelot-typefaces.com",
     category: "studio"
   },
   {
     id: 99,
     name: "Feliciano Type",
+    description: "葡萄牙高品质印刷与屏幕字体厂商",
+    country: "葡萄牙",
+    founded: "2001",
     website: "felicianotype.com",
     category: "studio"
   },
   {
     id: 100,
     name: "Socio Type",
+    description: "伦敦设计驱动的字体厂商",
+    country: "英国",
     website: "socio-type.com",
     category: "studio"
   },
   {
     id: 101,
     name: "Schrifteria",
+    description: "字体设计工作室，帮助品牌找到独特声音",
     website: "schrifteria.xyz",
     category: "studio"
   },
   {
     id: 102,
     name: "British Standard Type",
+    description: "英国独立字体厂商",
+    country: "英国",
+    founded: "2023",
     website: "britishstandardtype.xyz",
     category: "studio"
   },
   {
     id: 103,
     name: "Tokotype",
+    description: "印尼领先的数字字体设计厂商",
+    country: "印尼",
+    founded: "2015",
     website: "tokotype.com",
     category: "studio"
   },
   {
     id: 104,
     name: "Laura Meseguer",
+    description: "西班牙字体设计师，专注定制与零售字体",
+    country: "西班牙",
     website: "laurameseguer.com",
     category: "studio"
   },
   {
     id: 105,
     name: "Type Department",
+    description: "字体零售平台，汇集多家厂商字体",
     website: "type-department.com",
     category: "studio"
   },
   {
     id: 106,
     name: "Out of the Dark",
+    description: "瑞士字体厂商，从历史资料中汲取灵感",
+    country: "瑞士",
     website: "outofthedark.xyz",
     category: "studio"
   },
   {
     id: 107,
     name: "Type of Feeling",
+    description: "Jessica Walsh 创立的情感字体厂商",
+    country: "美国",
     website: "typeoffeeling.com",
     category: "studio"
   },
   {
     id: 108,
     name: "Yep Type",
+    description: "里斯本字体厂商，提供实用字体与简易授权",
+    country: "葡萄牙",
     website: "yeptype.com",
     category: "studio"
   },
   {
     id: 109,
     name: "Format",
+    description: "德国独立字体厂商，提供简化四合一授权",
+    country: "德国",
     website: "format-otf.de",
     category: "studio"
   },
   {
     id: 110,
     name: "Source Type",
+    description: "半字体厂商、半研究机构、半出版社",
+    country: "瑞士",
     website: "sourcetype.com",
     category: "studio"
   },
   {
     id: 111,
     name: "Kimera Corp",
+    description: "慕尼黑字体厂商与设计工作室",
+    country: "德国",
     website: "kimeracorp.eu",
     category: "studio"
   },
   {
     id: 112,
     name: "Maxi Type",
+    description: "瑞士协作独立字体厂商，鼓励字体研究",
+    country: "瑞士",
+    founded: "2020",
     website: "maxitype.com",
     category: "studio"
   },
   {
     id: 113,
     name: "Lund Design",
+    description: "独立设计工作室，专注品牌与字体设计",
+    country: "美国",
     website: "lunddesign.co",
     category: "studio"
   },
   {
     id: 114,
     name: "That That Type",
+    description: "独立字体厂商，服务 Nike、ESPN 等品牌",
+    country: "美国",
     website: "thatthattype.com",
     category: "studio"
   },
   {
     id: 115,
     name: "Florian Karsten",
+    description: "独立字体设计师，FK Grotesk 作者",
     website: "fonts.floriankarsten.com",
     category: "studio"
   },
   {
     id: 116,
     name: "Element Type",
+    description: "按公司规模定价的独立字体厂商",
     website: "elementtype.co",
     category: "studio"
   },
   {
     id: 117,
     name: "Type Kiosk",
+    description: "奥斯陆 Smuss Studio 旗下字体协作平台",
+    country: "挪威",
     website: "typekiosk.smuss.studio",
     category: "studio"
   },
   {
     id: 118,
     name: "Shinn Type",
+    description: "加拿大资深字体设计师 Nick Shinn 工作室",
+    country: "加拿大",
     website: "shinntype.com",
     category: "studio"
   },
   {
     id: 119,
     name: "Cake Type",
+    description: "荷兰精品字体厂商，由 Pieter van Rosmalen 创立",
+    country: "荷兰",
+    founded: "2004",
     website: "caketype.com",
     category: "studio"
   },
   {
     id: 120,
     name: "Over Type Foundry",
+    description: "独立字体厂商，提供零售与定制字体",
     website: "overtypefoundry.com",
     category: "studio"
   },
   {
     id: 121,
     name: "Matter of Sorts",
+    description: "澳大利亚排版工作室，关注社区与教育",
+    country: "澳大利亚",
     website: "matterofsorts.com",
     category: "studio"
   },
   {
     id: 122,
     name: "Typemates",
+    description: "德国三人独立字体厂商，注重情感与功能",
+    country: "德国",
+    founded: "2015",
     website: "typemates.com",
     category: "studio"
   },
   {
     id: 123,
     name: "Margot Levèque",
+    description: "法国字体设计师，提供定制字体与艺术指导",
+    country: "法国",
     website: "margotleveque.com",
     category: "studio"
   },
   {
     id: 124,
     name: "Studio Muhittin Güneş",
+    description: "土耳其独立字体与平面设计工作室",
+    country: "土耳其",
     website: "gunesmuhittin.com",
     category: "studio"
   },
