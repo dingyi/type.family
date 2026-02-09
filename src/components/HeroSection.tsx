@@ -49,9 +49,9 @@ export function HeroSection() {
 
         {/* Subtitle */}
         <p className="font-mono text-muted-foreground max-w-2xl mx-auto mb-8 text-sm md:text-base leading-relaxed px-4">
-          收录全球 <span className="text-primary">30</span> 家顶尖字体设计公司
+          收录全球 <span className="text-primary">125+</span> 家字体设计公司与工作室
           <br className="hidden sm:block" />
-          <span className="text-accent">从经典巨头到新锐独立工作室</span>
+          <span className="text-accent">从经典巨头到新锐独立工作室，一站收录</span>
         </p>
 
         {/* Decorative elements */}
