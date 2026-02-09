@@ -79,7 +79,7 @@ export function FoundryTable() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
                     >
-                      <span className="hidden sm:inline max-w-[100px] truncate">{foundry.website}</span>
+                      <span className="hidden sm:inline">{foundry.website}</span>
                       <ExternalLink className="w-3 h-3" />
                     </a>
                   </td>
