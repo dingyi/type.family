@@ -1352,4 +1352,212 @@ export const foundries: Foundry[] = [
     website: "alfatype.com",
     category: "studio"
   },
+
+  // === 来自 typefoundry.directory 及其他目录补充 ===
+  {
+    id: 167,
+    name: "Optimo",
+    description: "瑞士洛桑传奇字体厂商，Theinhardt 等经典字体出品方",
+    country: "瑞士",
+    founded: "1999",
+    notableFonts: ["Theinhardt", "Hermes", "Gravur Condensed"],
+    website: "optimo.ch",
+    category: "indie"
+  },
+  {
+    id: 168,
+    name: "Indian Type Foundry",
+    description: "印度领先的多文字字体厂商，支持多种印度文字",
+    country: "印度",
+    founded: "2009",
+    notableFonts: ["Poppins", "Bespoke Sans"],
+    website: "indiantypefoundry.com",
+    category: "modern"
+  },
+  {
+    id: 169,
+    name: "Fontwerk",
+    description: "德国独立字体厂商，由 Ivo Gabrowitsch 等创立",
+    country: "德国",
+    website: "fontwerk.com",
+    category: "indie"
+  },
+  {
+    id: 170,
+    name: "CSTM Fonts",
+    description: "俄罗斯专业字体厂商，专注西里尔与拉丁多语言字体",
+    country: "俄罗斯",
+    website: "cstmfonts.com",
+    category: "modern"
+  },
+  {
+    id: 171,
+    name: "Suitcase Type Foundry",
+    description: "捷克老牌字体厂商，提供大量高品质字体家族",
+    country: "捷克",
+    founded: "2003",
+    website: "sfrfrr.com",
+    category: "modern"
+  },
+  {
+    id: 172,
+    name: "NaN",
+    description: "德国实验性字体厂商，以可变字体见长",
+    country: "德国",
+    website: "nan.xyz",
+    category: "indie"
+  },
+  {
+    id: 173,
+    name: "Fontshop",
+    description: "德国知名字体零售平台，FontFont 系列出品方",
+    country: "德国",
+    founded: "1990",
+    notableFonts: ["FF Meta", "FF Din", "FF Scala"],
+    website: "fontshop.com",
+    category: "classic"
+  },
+  {
+    id: 174,
+    name: "Typofonderie",
+    description: "法国独立字体厂商，由 Jean François Porchez 创立",
+    country: "法国",
+    founded: "1994",
+    notableFonts: ["Parisine", "Le Monde"],
+    website: "typofonderie.com",
+    category: "indie"
+  },
+  {
+    id: 175,
+    name: "Tiro Typeworks",
+    description: "加拿大字体厂商，专注多文字排版与学术字体",
+    country: "加拿大",
+    founded: "1994",
+    website: "tiro.com",
+    category: "modern"
+  },
+  {
+    id: 176,
+    name: "Bureau Brut",
+    description: "法国独立字体厂商，风格大胆前卫",
+    country: "法国",
+    founded: "2015",
+    website: "bureaubrut.com",
+    category: "indie"
+  },
+  {
+    id: 177,
+    name: "Retype",
+    description: "荷兰独立字体厂商，提供高品质零售与定制字体",
+    country: "荷兰",
+    founded: "2007",
+    website: "re-type.com",
+    category: "indie"
+  },
+  {
+    id: 178,
+    name: "Tiny Type Co.",
+    description: "挪威小型独立字体厂商",
+    country: "挪威",
+    founded: "2016",
+    website: "tinytypeco.com",
+    category: "studio"
+  },
+  {
+    id: 179,
+    name: "Commercial Classics",
+    description: "Commercial Type 旗下经典复刻字体品牌",
+    country: "美国",
+    website: "commercialclassics.com",
+    category: "modern"
+  },
+  {
+    id: 180,
+    name: "Space Type",
+    description: "纽约实验性字体与刻字工作室，由 Lynne Yun 创立",
+    country: "美国",
+    website: "spacetypeco.com",
+    category: "studio"
+  },
+  {
+    id: 181,
+    name: "The Foundry Types",
+    description: "英国独立字体厂商，提供定制与零售字体",
+    country: "英国",
+    founded: "2020",
+    website: "thefoundrytypes.com",
+    category: "studio"
+  },
+  {
+    id: 182,
+    name: "Signal Foundry",
+    description: "爱尔兰独立字体厂商",
+    country: "爱尔兰",
+    founded: "2011",
+    website: "signalfoundry.com",
+    category: "studio"
+  },
+  {
+    id: 183,
+    name: "Nodo Type Foundry",
+    description: "阿根廷独立字体厂商",
+    country: "阿根廷",
+    founded: "2015",
+    website: "nodotypefoundry.com",
+    category: "studio"
+  },
+  {
+    id: 184,
+    name: "3type",
+    description: "上海独立字体设计工作室，专注中文与多语言字体",
+    country: "中国",
+    website: "3type.cn",
+    category: "studio"
+  },
+  {
+    id: 185,
+    name: "Bye Bye Binary",
+    description: "法国非二元性别包容性字体项目",
+    country: "法国",
+    website: "typotheque.genderfluid.space",
+    category: "studio"
+  },
+  {
+    id: 186,
+    name: "DizajnDesign",
+    description: "斯洛伐克独立字体厂商",
+    country: "斯洛伐克",
+    website: "dizajndesign.sk",
+    category: "studio"
+  },
+  {
+    id: 187,
+    name: "Tipofili",
+    description: "独立字体设计工作室",
+    website: "tipofili.com",
+    category: "studio"
+  },
+  {
+    id: 188,
+    name: "bb-bureau",
+    description: "法国独立字体厂商，由 Benjamin Bousquet 创立",
+    country: "法国",
+    founded: "2012",
+    website: "bb-bureau.fr",
+    category: "studio"
+  },
+  {
+    id: 189,
+    name: "Brutal Type",
+    description: "独立字体厂商，风格硬朗直接",
+    website: "brutaltype.com",
+    category: "studio"
+  },
+  {
+    id: 190,
+    name: "Tandem Type",
+    description: "独立字体设计工作室",
+    website: "tandemtype.com",
+    category: "studio"
+  },
 ];
