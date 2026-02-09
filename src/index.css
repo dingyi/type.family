@@ -2,83 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
 
 @layer base {
   :root {
-    --background: 230 25% 5%;
-    --foreground: 180 100% 95%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 9%;
 
-    --card: 230 30% 8%;
-    --card-foreground: 180 100% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
 
-    --popover: 230 30% 8%;
-    --popover-foreground: 180 100% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
 
-    --primary: 180 100% 50%;
-    --primary-foreground: 230 25% 5%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 320 100% 60%;
-    --secondary-foreground: 230 25% 5%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 9%;
 
-    --muted: 230 20% 15%;
-    --muted-foreground: 180 30% 60%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 45 100% 55%;
-    --accent-foreground: 230 25% 5%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 9%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 180 50% 20%;
-    --input: 230 20% 15%;
-    --ring: 180 100% 50%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 9%;
 
-    --radius: 0.25rem;
+    --radius: 0.5rem;
 
-    /* Custom design tokens */
-    --neon-cyan: 180 100% 50%;
-    --neon-pink: 320 100% 60%;
-    --neon-amber: 45 100% 55%;
-    --neon-purple: 270 100% 65%;
-    
-    --glow-cyan: 0 0 20px hsl(180 100% 50% / 0.5), 0 0 40px hsl(180 100% 50% / 0.3);
-    --glow-pink: 0 0 20px hsl(320 100% 60% / 0.5), 0 0 40px hsl(320 100% 60% / 0.3);
-    --glow-amber: 0 0 20px hsl(45 100% 55% / 0.5), 0 0 40px hsl(45 100% 55% / 0.3);
-
-    --font-display: 'Orbitron', sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
-
-    --sidebar-background: 230 25% 5%;
-    --sidebar-foreground: 180 100% 95%;
-    --sidebar-primary: 180 100% 50%;
-    --sidebar-primary-foreground: 230 25% 5%;
-    --sidebar-accent: 230 20% 15%;
-    --sidebar-accent-foreground: 180 100% 95%;
-    --sidebar-border: 180 50% 20%;
-    --sidebar-ring: 180 100% 50%;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 9%;
+    --sidebar-primary: 0 0% 9%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 96%;
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 0 0% 9%;
   }
 
   .dark {
-    --background: 230 25% 5%;
-    --foreground: 180 100% 95%;
-    --card: 230 30% 8%;
-    --card-foreground: 180 100% 95%;
-    --popover: 230 30% 8%;
-    --popover-foreground: 180 100% 95%;
-    --primary: 180 100% 50%;
-    --primary-foreground: 230 25% 5%;
-    --secondary: 320 100% 60%;
-    --secondary-foreground: 230 25% 5%;
-    --muted: 230 20% 15%;
-    --muted-foreground: 180 30% 60%;
-    --accent: 45 100% 55%;
-    --accent-foreground: 230 25% 5%;
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 180 50% 20%;
-    --input: 230 20% 15%;
-    --ring: 180 100% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 0 0% 83%;
   }
 }
 
@@ -88,114 +75,12 @@
   }
 
   body {
-    @apply bg-background text-foreground font-mono;
-    font-family: var(--font-mono);
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-display);
-  }
-}
-
-@layer components {
-  .scanlines {
-    position: relative;
-  }
-  
-  .scanlines::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      hsl(var(--background) / 0.03) 2px,
-      hsl(var(--background) / 0.03) 4px
-    );
-    pointer-events: none;
-    z-index: 50;
-  }
-
-  .neon-text-cyan {
-    color: hsl(var(--neon-cyan));
-    text-shadow: var(--glow-cyan);
-  }
-
-  .neon-text-pink {
-    color: hsl(var(--neon-pink));
-    text-shadow: var(--glow-pink);
-  }
-
-  .neon-text-amber {
-    color: hsl(var(--neon-amber));
-    text-shadow: var(--glow-amber);
-  }
-
-  .neon-border {
-    border-color: hsl(var(--neon-cyan));
-    box-shadow: var(--glow-cyan), inset 0 0 20px hsl(var(--neon-cyan) / 0.1);
-  }
-
-  .neon-border-pink {
-    border-color: hsl(var(--neon-pink));
-    box-shadow: var(--glow-pink), inset 0 0 20px hsl(var(--neon-pink) / 0.1);
-  }
-
-  .retro-grid {
-    background-image: 
-      linear-gradient(hsl(var(--neon-cyan) / 0.1) 1px, transparent 1px),
-      linear-gradient(90deg, hsl(var(--neon-cyan) / 0.1) 1px, transparent 1px);
-    background-size: 50px 50px;
-  }
-
-  .flicker {
-    animation: flicker 4s infinite;
-  }
-
-  .glow-pulse {
-    animation: glow-pulse 2s ease-in-out infinite;
-  }
-}
-
-@layer utilities {
-  @keyframes flicker {
-    0%, 100% { opacity: 1; }
-    92% { opacity: 1; }
-    93% { opacity: 0.8; }
-    94% { opacity: 1; }
-    97% { opacity: 0.9; }
-    98% { opacity: 1; }
-  }
-
-  @keyframes glow-pulse {
-    0%, 100% { 
-      filter: brightness(1);
-      text-shadow: var(--glow-cyan);
-    }
-    50% { 
-      filter: brightness(1.2);
-      text-shadow: 0 0 30px hsl(180 100% 50% / 0.8), 0 0 60px hsl(180 100% 50% / 0.5);
-    }
-  }
-
-  @keyframes scan {
-    0% { transform: translateY(-100%); }
-    100% { transform: translateY(100vh); }
-  }
-
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  .animate-scan {
-    animation: scan 8s linear infinite;
-  }
-
-  .typing-effect {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 2s steps(30) forwards;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
   }
 }
