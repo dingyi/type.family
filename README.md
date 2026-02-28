@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# type.family
 
-## Project info
+全球字体厂商目录，收录 416+ 家字体设计公司与工作室。
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 技术栈
 
-## How can I edit this code?
+- [Vite](https://vitejs.dev/) — 构建工具
+- [React](https://react.dev/) 18 — UI 框架
+- [TypeScript](https://www.typescriptlang.org/) — 类型系统
+- [Tailwind CSS](https://tailwindcss.com/) 3 — 样式方案
+- [shadcn/ui](https://ui.shadcn.com/) — 组件库（基于 Radix UI）
+- [React Router](https://reactrouter.com/) — 路由
+- [TanStack Query](https://tanstack.com/query) — 数据请求
+- [Lucide React](https://lucide.dev/) — 图标
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## 本地开发
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 安装依赖
+bun install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 启动开发服务器 (localhost:8080)
+bun dev
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 构建生产版本
+bun run build
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# 预览生产构建
+bun run preview
 ```
 
-**Edit a file directly in GitHub**
+## 项目结构
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```
+src/
+├── components/
+│   ├── ui/             # shadcn/ui 组件
+│   ├── FoundryTable.tsx # 厂商列表表格（搜索 + 表格）
+│   ├── HeroSection.tsx  # 页面头部
+│   └── Footer.tsx       # 页脚
+├── data/
+│   └── foundries.ts     # 字体厂商数据（416+ 条）
+├── pages/
+│   ├── Index.tsx         # 首页
+│   └── NotFound.tsx      # 404 页面
+├── App.tsx              # 路由配置
+└── main.tsx             # 入口
+```
