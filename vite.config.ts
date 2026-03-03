@@ -1,6 +1,9 @@
-import { defineConfig } from "vite";
+import { execSync } from "node:child_process";
+import path from "node:path";
 import react from "@vitejs/plugin-react-swc";
-import path from "path";
+import { defineConfig } from "vite";
+
+const gitLastCommitDate = execSync("git log -1 --format=%cI").toString().trim();
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,10 +11,13 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
+  define: {
+    __GIT_LAST_COMMIT_DATE__: JSON.stringify(gitLastCommitDate),
+  },
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(import.meta.dirname, "./src"),
     },
   },
 });
